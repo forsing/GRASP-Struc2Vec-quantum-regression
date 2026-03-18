@@ -26,7 +26,7 @@ from qiskit_machine_learning.utils import algorithm_globals
 from qiskit.circuit.library import ZZFeatureMap, TwoLocal
 from qiskit.quantum_info import Statevector, Pauli
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4580_k21.csv"
+CSV_PATH = "/data/loto7hh_4580_k21.csv"
 
 df = pd.read_csv(CSV_PATH)
 print()
@@ -252,7 +252,7 @@ def main():
     print()
     """
     Predikcija (Struc2Vec + kvantna regresija, deterministički, strukturno):
-    (1, 2, 7, 8, 23, 26, 34)
+    (1, 2, x, y, z, 26, 34)
 
     Score: 0.4879825338249706
     """
